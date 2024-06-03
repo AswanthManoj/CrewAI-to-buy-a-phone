@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "phone researcher"
+version = "0.1.0"
+description = "The crew of agents for reasearching to buy a new phone"
+authors = ["ASWANTH C M <aswanthmanoj51@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<=3.13"
+crewai = {extras = ["tools"], version = "^0.30.11"}
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
